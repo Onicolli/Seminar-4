@@ -8,6 +8,5 @@ Console.WriteLine("Введите число A: ");
 int A = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите число B: ");
 int B = int.Parse(Console.ReadLine()!);
-
 double Sum = Math.Pow(A, B);
 Console.WriteLine($"{A}, {B} -> {Sum}");
